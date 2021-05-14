@@ -2,9 +2,180 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 $Titillium: 'Titillium Web', sans-serif;
 
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-Thin.eot');
+    src: local('../StagsansFont/Stag Sans Thin'), local('../StagsansFont/StagSans-Thin'),
+        url('../StagsansFont/StagSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-Thin.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-Thin.woff') format('woff'),
+        url('../StagsansFont/StagSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-Medium.eot');
+    src: local('../StagsansFont/Stag Sans Medium'), local('../StagsansFont/StagSans-Medium'),
+        url('../StagsansFont/StagSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-Medium.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-Medium.woff') format('woff'),
+        url('../StagsansFont/StagSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-BoldItalic.eot');
+    src: local('../StagsansFont/Stag Sans Bold Italic'), local('../StagsansFont/StagSans-BoldItalic'),
+        url('../StagsansFont/StagSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-BoldItalic.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-BoldItalic.woff') format('woff'),
+        url('../StagsansFont/StagSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-SemiBoldItalic.eot');
+    src: local('../StagsansFont/Stag Sans SemiBold Italic'), local('../StagsansFont/StagSans-SemiBoldItalic'),
+        url('../StagsansFont/StagSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-SemiBoldItalic.woff') format('woff'),
+        url('../StagsansFont/StagSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-LightItalic.eot');
+    src: local('../StagsansFont/Stag Sans Light Italic'), local('../StagsansFont/StagSans-LightItalic'),
+        url('../StagsansFont/StagSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-LightItalic.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-LightItalic.woff') format('woff'),
+        url('../StagsansFont/StagSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-Bold.eot');
+    src: local('../StagsansFont/Stag Sans Bold'), local('../StagsansFont/StagSans-Bold'),
+        url('../StagsansFont/StagSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-Bold.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-Bold.woff') format('woff'),
+        url('../StagsansFont/StagSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-ThinItalic.eot');
+    src: local('../StagsansFont/Stag Sans Thin Italic'), local('../StagsansFont/StagSans-ThinItalic'),
+        url('../StagsansFont/StagSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-ThinItalic.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-ThinItalic.woff') format('woff'),
+        url('../StagsansFont/StagSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-BlackItalic.eot');
+    src: local('../StagsansFont/Stag Sans Black Italic'), local('../StagsansFont/StagSans-BlackItalic'),
+        url('../StagsansFont/StagSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-BlackItalic.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-BlackItalic.woff') format('woff'),
+        url('../StagsansFont/StagSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-Black.eot');
+    src: local('../StagsansFont/Stag Sans Black'), local('../StagsansFont/StagSans-Black'),
+        url('../StagsansFont/StagSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-Black.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-Black.woff') format('woff'),
+        url('../StagsansFont/StagSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-Italic.eot');
+    src: local('../StagsansFont/Stag Sans Italic'), local('../StagsansFont/StagSans-Italic'),
+        url('../StagsansFont/StagSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-Italic.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-Italic.woff') format('woff'),
+        url('../StagsansFont/StagSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-Light.eot');
+    src: local('../StagsansFont/Stag Sans Light'), local('../StagsansFont/StagSans-Light'),
+        url('../StagsansFont/StagSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-Light.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-Light.woff') format('woff'),
+        url('../StagsansFont/StagSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-MediumItalic.eot');
+    src: local('../StagsansFont/Stag Sans Medium Italic'), local('../StagsansFont/StagSans-MediumItalic'),
+        url('../StagsansFont/StagSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-MediumItalic.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-MediumItalic.woff') format('woff'),
+        url('../StagsansFont/StagSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-SemiBold.eot');
+    src: local('../StagsansFont/Stag Sans SemiBold'), local('../StagsansFont/StagSans-SemiBold'),
+        url('../StagsansFont/StagSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-SemiBold.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-SemiBold.woff') format('woff'),
+        url('../StagsansFont/StagSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stag Sans';
+    src: url('../StagsansFont/StagSans-Regular.eot');
+    src: local('../StagsansFont/Stag Sans Regular'), local('../StagsansFont/StagSans-Regular'),
+        url('../StagsansFont/StagSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../StagsansFont/StagSans-Regular.woff2') format('woff2'),
+        url('../StagsansFont/StagSans-Regular.woff') format('woff'),
+        url('../StagsansFont/StagSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+$StagSans: 'Stag Sans';
+
+
 /* Colors and variables */
 $clr_black: #000000;
-$clr_white: #FFFFFF;
+$clr_white: #ffffff;
 $btn_primary: #DD5A6A;
 $clr_green: #22B78E;
 $footer_black: #272727;
@@ -37,13 +208,15 @@ h1, h2, h3, h4, h5, h6{
   font-family: $Titillium;
 }
 p {
-    font-family: StagSans;
+    font-family: $StagSans;
     color: $clr_black;
     font-size: 17px;
     line-height: 20px;
+    font-weight: 300;
 }
 ul{
     list-style: none; margin: 0; padding: 0;
+    font-weight: 300;
 }
 figure{
     margin: 0; font-size: 0;
@@ -68,6 +241,13 @@ button.btn{
 button.btn-primary{
     background-color: $btn_primary;
     border-color: $btn_primary;
+    color: $clr_white;
+  font-family: Arial;
+  font-size: 14.4px;
+  line-height: 17px;
+  text-align: left;
+  min-width: 186px;
+  text-align: center;
     &:hover{
         background-color: $clr_white;
         color: $btn_primary;
@@ -78,8 +258,8 @@ button.btn-info{
     background-image: linear-gradient(to right, #2EC4B8 -35.15%, #6078EA 100%, #6078EA 100%);
     border-radius: 4px;
     border-color: #6078EA;
-    color: #FFFFFF;
-    font-family: StagSans;
+    color: $clr_white;
+    font-family: $StagSans;
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 18px;
@@ -97,8 +277,10 @@ button.btn-info{
     }
     @media only screen and (max-width: 767px){
         margin: 0 auto 50px;
+  
     }
 }
+
 main{
     .banner_container{
         background-image: url("../images/Banner_mage.png");
@@ -136,7 +318,7 @@ main{
                 }
             }
             h2{
-                color: #FFFFFF;
+                color: $clr_white;
                 font-size: 31px;
                 letter-spacing: 1.28px;
                 line-height: 40px;
@@ -144,19 +326,21 @@ main{
                 max-width: 622px;
                 text-align: left;
                 margin-bottom: 10px;
+                font-weight: 700;
             }
             ul{
                 margin-bottom: 15px;
                 li{
                     display: inline-block; width: auto; 
-                    font-family: StagSans;
+                    font-family: $StagSans;
                     font-size: 25px;
                     letter-spacing: 3.59px;
                     line-height: 34px;
                     color: rgba(255, 255, 255, 0.6);
+                    font-weight: 300;
                     &::after{
                         content: '|'; display: inline-block; 
-                        font-family: StagSans;
+                        font-family: $StagSans;
                         font-size: 25px;
                         letter-spacing: 3.59px;
                         line-height: 34px;
@@ -183,7 +367,7 @@ main{
             }
             h3{
                 color: #213559;
-                font-family: StagSans;
+                font-family: $StagSans;
                 font-size: 20.08px;
                 line-height: 24px;
                 text-align: left;
@@ -207,6 +391,11 @@ main{
                     }
                     button{
                         margin-top: 15px;
+                        font-family: $StagSans;
+                        font-size: 14.84px;
+                        line-height: 18px;
+                        min-width: 111px;
+                        text-align: center;
                     }
                 }
             }
@@ -251,16 +440,18 @@ main{
                 border-radius: 4px;
                 min-height: 95px;
                 color: $clr_white;
-                font-family: StagSans;
+                font-family: $StagSans;
                 font-size: 18px;
                 line-height: 26px;
+                font-weight: 500;
             }
             p{
                 margin-bottom: 45px;
                 color: $clr_black;
-                font-family: StagSans;
+                font-family: $StagSans;
                 font-size: 17px;
                 line-height: 20px;
+                font-weight: 300;
                 &:last-child{
                     margin-bottom: 0;
                 }
@@ -274,11 +465,12 @@ main{
         font-size: 0;
         h2{
             color: $clr_green;
-            font-family: StagSans;
+            font-family: $StagSans;
             font-size: 31px;
             letter-spacing: 1.28px;
             line-height: 44px;
             margin-bottom: 30px;
+            font-weight: 500;
         }
         section{
             background-color: #F9F9FF; width: calc(50% - 10px);
@@ -294,11 +486,12 @@ main{
             }
             h4{
                 color: #1D5AA6;
-                font-family: StagSans;
+                font-family: $StagSans;
                 font-size: 22px;
                 letter-spacing: 1.76px;
                 line-height: 26px;
                 color: $clr_green;
+                font-weight: 500;
             }
             figure{
                 margin-bottom: 25px;
@@ -311,17 +504,17 @@ main{
                     }
                     h5{
                         color: #1D5AA6;
-                        font-family: StagSans;
+                        font-family: $StagSans;
                         font-size: 22px;
                         letter-spacing: 1.76px;
                         line-height: 26px;
                     }
                     strong{
                         color: #1D5AA6;
-                        font-family: StagSans;
+                        font-family: $StagSans;
                         font-size: 15px;
                         letter-spacing: 1.2px;
-                        margin: 0px;
+                        margin: 0px; font-weight: 300;
                         &::after{
                             content: ''; display: block; height: 1px; width: 37px; margin: 0 auto;
                             background: #22B78E;
@@ -330,9 +523,16 @@ main{
                     }
                     p{
                         color: #000000;
-                        font-family: StagSans;
+                        font-family: $StagSans;
                         font-size: 15px;
+                        font-weight: 300;
                         line-height: 20px;
+                    }
+                    button{
+                        border-radius: 4px;
+                        width: 129px;
+                        height: 49px;
+
                     }
                 }
             }
@@ -342,21 +542,23 @@ main{
         h2{
             color: $clr_green;
             color: #22B78E;
-            font-family: StagSans;
+            font-family: $StagSans;
             font-size: 31px;
             letter-spacing: 1.28px;
             line-height: 44px;
             margin-bottom: 30px;
+            font-weight: 500;
         }
         &.types_off_bone{
             ul{
                 li{
                     color: $clr_black;
-                    font-family: StagSans;
+                    font-family: $StagSans;
                     font-size: 14px;
                     line-height: 39px;margin-bottom: 20px;
                     padding-left: 30px;
                     position: relative;
+                    font-weight: 300;
                     @media only screen and (max-width: 1024px){
                         line-height: 29px;
                     }
@@ -390,7 +592,7 @@ main{
                         width: 50%; padding: 10px;
                     }
                     div{
-                        background-color: #FFFFFF;
+                        background-color: $clr_white;
                         border: 1px solid #E5EAFF;
                         border-radius: 4px;
                         box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
@@ -411,12 +613,21 @@ main{
                 li{
                     padding: 15px; 
                     .testimonals_slide{
-                        background-color: #FFFFFF;
+                        background-color: $clr_white;
                         border-radius: 4px;
                         box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
                         min-height: 249px;
                         padding: 40px 30px 30px;
                         text-align: left;
+                        p{
+                            color: #000000;
+                            font-family: $StagSans;
+                            font-size: 15px;
+                            font-style: italic;
+                            line-height: 21px;
+                            width: 410px;
+                            text-align: left;
+                        }
                         div{
                             margin-bottom: 30px;
                             figure{
@@ -424,12 +635,14 @@ main{
                                 width: auto;
                                 vertical-align: middle;
                                 margin-right: 15px;
+                                
                             }
                             div{
                                 display: inline-block;
-                                width: auto;
+                                width: calc(100% - 86px);
                                 vertical-align: middle;
                                 margin-bottom: 0;
+                                margin-top: 15px;
                                 h5{
                                     font-weight: 700;
                                 }
@@ -448,6 +661,12 @@ main{
                 max-width: 221px;
                 height: 54px;
                 margin-top: 30px;
+                color: $clr_white;
+                font-family: Arial;
+                font-size: 17.14px;
+                line-height: 21px;
+                text-align: left;
+                text-align: center;
             }
         }
     }
@@ -457,7 +676,7 @@ main{
                 border-bottom: 1px solid #ECECFF;
                 h4{
                     color: #1D5AA6;
-                    font-family: StagSans;
+                    font-family: $StagSans;
                     font-size: 20px;
                     letter-spacing: 1.6px;
                     line-height: 22px;
@@ -488,7 +707,7 @@ main{
                     ul{
                         li{
                             color: $clr_black;
-                            font-family: StagSans;
+                            font-family: $StagSans;
                             font-size: 14px;
                             line-height: 30px;
                             padding-left: 30px;
@@ -525,12 +744,13 @@ footer{
     small{
         display: block;
         copyrights{
-            color: #FFFFFF;
-            font-family: StagSans;
+            color: $clr_white;
+            font-family: $StagSans;
             font-size: 14px;
             letter-spacing: 1.12px;
             line-height: 17px;
             text-align: left;
+            font-weight: 300;
         }
     }
 }
